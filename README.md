@@ -1,4 +1,4 @@
-# Unit 11 - Risky Business
+# Credit Risk Machine Learning
  
 ![Credit Risk](Images/credit-risk.jpg)
 
@@ -6,7 +6,7 @@
 
 Mortgages, student and auto loans, and debt consolidation are just a few examples of credit and loans that people seek online. Peer-to-peer lending services such as Loans Canada and Mogo let investors loan people money without using a bank. However, because investors always want to mitigate risk, a client has asked that you help them predict credit risk with machine learning techniques.
 
-In this assignment you will build and evaluate several machine learning models to predict credit risk using data you'd typically see from peer-to-peer lending services. Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so you will need to employ different techniques for training and evaluating models with imbalanced classes. You will use the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques:
+Build and evaluate several machine learning models to predict credit risk using data you'd typically see from peer-to-peer lending services. Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans), so we will be using different techniques for training and evaluating models with imbalanced classes. We will use the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques:
 
 1. [Resampling](#Resampling)
 2. [Ensemble Learning](#Ensemble-Learning)
@@ -43,7 +43,7 @@ To begin:
     * Display the `confusion matrix`.
     * Print the `imbalanced classification report`.
 
-Next you will:
+Next we will will:
 
 1. Oversample the data using the `Naive Random Oversampler` and `SMOTE` algorithms.
 
@@ -52,7 +52,7 @@ Next you will:
 3. Over- and undersample using a combination `SMOTEENN` algorithm.
 
 
-For each of the above, you will need to:
+For each of the above, we will need to:
 
 1. Train a `logistic regression classifier` from `sklearn.linear_model` using the resampled data.
 
@@ -73,7 +73,7 @@ Use the above to answer the following questions:
 
 #### Ensemble Learning
 
-In this section, you will train and compare two different ensemble classifiers to predict loan risk and evaluate each model. You will use the [Balanced Random Forest Classifier](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.ensemble.BalancedRandomForestClassifier.html#imblearn-ensemble-balancedrandomforestclassifier) and the [Easy Ensemble Classifier](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.ensemble.EasyEnsembleClassifier.html#imblearn-ensemble-easyensembleclassifier). Refer to the documentation for each of these to read about the models and see examples of the code.
+In this section, we will train and compare two different ensemble classifiers to predict loan risk and evaluate each model. We will use the [Balanced Random Forest Classifier](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.ensemble.BalancedRandomForestClassifier.html#imblearn-ensemble-balancedrandomforestclassifier) and the [Easy Ensemble Classifier](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.ensemble.EasyEnsembleClassifier.html#imblearn-ensemble-easyensembleclassifier). Refer to the documentation for each of these to read about the models and see examples of the code.
 
 To begin:
 
